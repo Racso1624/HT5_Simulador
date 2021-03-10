@@ -10,7 +10,7 @@ class Event:
     def instructions(self):
         return self.eventinstructionsciclo
 
-    def resta(self):
+    def cycle(self):
         self.eventinstructions - 3
 
     def isDone(self):
